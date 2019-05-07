@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: auto;
+}
+
+.article{
+	width: 1000px;
+	height:20px;
+}
+.l_box {
+    width: 670px;
+}
+.f-l{
+	float: right;
+}
+.topnews{
+	margin: 10px 0;
+}
+.topnews h2{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 36px;
+	border-bottom: #F80004 4px solid
+}
+.topnews h2 span{
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	margin-top: 10px;
+}
+.topnews h2 span a{
+	color:deeppink;
+	text-decoration: none;
+}
+.mood{
+	width: 960px;
+	
+	height: 60px;
+	background: #fafafa;
+	border: 1px #e0e0e0 solid;
+	color: #4d4d4d;
+	padding-top:20px;
+	line-height: 22px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 27px;
+	border-radius: 5px;
+	
+}
+
+.mood .tutime{
+	
+	background: url(../images/datepng.png) no-repeat left center;
+	padding-left: 15px;
+	
+	
+}
+.mood p{
+	word-break: break-all;
+}
