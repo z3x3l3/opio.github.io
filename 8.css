@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+}
+#box{
+	width:1920px;
+	height:1080px;
+	background-image:url(../img/timg.jpg);
+	background-size:1920px 1080px;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}
+#box .demo{
+	width:1200px;
+	height:1070px;
+	margin:0 auto;
+	border:solid px #E72891;
+	box-shadow:5px 5px 50px 20px rgba(135,74,155,0.1);
+}
+#box .to{
+	width:500px;
+	height:150px;
+	margin-top: 50px;
+	
+}
+#box .to .trans{
+	transition:all 0.5s ;
+}
+#box .to:hover .trans{
+	transform:rotate(360deg);
+	margin-left:200px;
+}
+#box .list {
+	width:800px;
+	height:100px;
+    
+	margin-top:20px;
+
+}
+#box .list .list-ul{
+	list-style: none;
+	
+}
+#box .list .list-ul li{
+	float:left;
+	margin-left:40px;
+	
+}
+#box .list .list-ul li a{
+	text-decoration:none;
+	color:#2BAAF0;
+}
+#box .list .list-ul li a:hover{
+	color:#fff;
+}
+#box .nav{
+	width:125px;
+	height:320px;
+	margin-top:-50px;
+	margin-left:30px;
+	
+	background-color:#fff;
+}
+#box .nav .nav-ul{
+	width:125px;
+	height:320px;
+	border-top:solid 0px #fff;
+}
+#box .nav .nav-ul li{
+	list-style: none;
+	line-height: 45px;
+	
+	text-align: center;
+}
+#box .nav .nav-ul li:hover{
+	background-color:#32dbea;
+	
+}
+#box .nav .nav-ul li:hover a{
+	color:#fff;
+}
+#box .nav .nav-ul li span{
+	margin-right:5px;
+}
+#box .nav .nav-ul li a{
+	text-decoration:none;
+	color:#CE56B6;
+}
+.button {
+	position:absolute;
+	
+	left:535px;
+	top:270px;
+	width:515px;
+	height:530px;
+}
+.button .zhong{
+	width:515px;
+	height:350px;
+	margin-top:20px;
+	overflow:auto;
+	background:#fff;
+}
+.button .xia{
+	width:515px;
+	height:250px;
+	margin-top:20px;
+	overflow:auto;
+	background:#fff;
+}
+#box .right{
+	position:absolute;
+	width:200px;
+	height:100px;
+	left:1070px;
+	top:270px;
+	z-index:1;
+	background:#fff;
+}

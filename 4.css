@@ -22,7 +22,7 @@
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 36px;
-	border-bottom: #F80004 4px solid
+	border-bottom: #db6d4c 4px solid
 }
 .topnews h2 span{
 	float: right;
@@ -32,18 +32,22 @@
 	margin-top: 10px;
 }
 .topnews h2 span a{
-	color:deeppink;
-	text-decoration: none;
+	color:#000;
+	
+}
+.topnews h2 span a:hover{
+	color: red;
 }
 .mood{
 	width: 960px;
 	
-	height: 60px;
+	
 	background: #fafafa;
 	border: 1px #e0e0e0 solid;
 	color: #4d4d4d;
-	padding-top:20px;
-	line-height: 22px;
+	padding-top:22px;
+	margin: auto;
+	line-height: 21px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 27px;
@@ -52,8 +56,6 @@
 }
 
 .mood .tutime{
-	
-	background: url(../images/datepng.png) no-repeat left center;
 	padding-left: 15px;
 	
 	
@@ -61,3 +63,14 @@
 .mood p{
 	word-break: break-all;
 }
+.boz .myself  ul li {
+	color:black;
+	float: right;
+	margin-right: -150px;
+	margin-top: -200px;
+	text-decoration:none;
+	list-style: none;
+	
+	
+}
+
